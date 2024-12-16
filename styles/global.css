@@ -1,0 +1,44 @@
+#maj-heading{
+
+    text-align: center;
+    color: #ff0000;
+}
+
+.blue-color{
+
+    color: #0000ff;
+}
+.text-center{
+    text-align: center;
+}
+
+.table-style{
+
+    border: 1px solid blue;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+tr ,th ,td{
+
+    border: 1px solid blue;
+    text-align: center;
+}
+
+footer{
+
+    float: right;
+}
+
+.container {
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+img{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

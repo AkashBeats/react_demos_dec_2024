@@ -1,11 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sri Estates</title>
+    <link rel="stylesheet" href="styles/global.css">
+
+    <style>
+        :root {
+            --custom-left-margin: 50px
+        }
+
+        html {
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .project-image {
+            width: 100px;
+            height: 100px;
+            border: 2px solid brown;
+        }
+
+        tr:nth-child(even) {
+            background-color: bisque;
+        }
+
+        thead:first-child {
+            background-color: aquamarine;
+        }
+
+        p:hover {
+
+            font-size: 1.2em;
+        }
+
+        a {
+            margin-left: var(--custom-left-margin);
+            border: 2px dotted green;
+            border-radius: 10px;
+        }
+
+        p {
+            margin-left: var(--custom-left-margin);
+
+        }
+    </style>
 </head>
+
 <body>
-    <h1 id="header">First Example</h1>
+    <header>
+        <h1 id="maj-heading" class="text-center blue-color">Sri Real Estates</h1>
+    </header>
+    <h4 id="sub-heading" class="text">Chennai -117</h4>
+    <nav class="nav-style">
+        <a href="#home" style="padding:20px">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="register.html">Register</a>
+
+    </nav>
+    <p id="home" class="blue-color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ipsa itaque quo
+        iusto, eaque quod molestiae praesentium facere quaerat error totam. Vel nulla fuga perferendis cum deserunt?
+        Quibusdam, deleniti earum.</p>
+    <div class="container">
+        <img src="./images/project1.jpeg" class="project-image" alt="project picture">
+        <img src="./images/project2.jpeg" class="project-image" alt="project picture">
+        <img src="./images/project3.jpeg" class="project-image" alt="project picture">
+    </div>
+    <p id="projects">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facere fuga id dolorem rem
+        cumque amet qui laborum? At eos quae nulla mollitia natus totam, ipsam ex optio ratione dolorem.</p>
+
+
+    <div>
+        <span style="background-color: aqua; font-size: 1.2rem;">Location to Search:</span>
+        <input type="search" name="srchString">
+        <table class="table-style">
+            <thead>
+                <tr>
+                    <th>Sl.No</th>
+                    <th>Location</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Navalur</td>
+                    <td style="text-align: center;">23</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agaram</td>
+                    <td>56</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <p id="testimonials">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odio aut voluptates,
+        reiciendis dolore necessitatibus, laudantium, modi voluptatum recusandae exercitationem possimus. Magni sit
+        sapiente reprehenderit ratione consequuntur suscipit, quisquam mollitia!</p>
+
+    <footer>
+        <p id="copy-right" style="float: right;">Designed By Abc Software Service,Chennai &#169;2024-2025</p>
+
+        <a href="mailTo:abc@gmail.com">Contact Admin</a>
+    </footer>
+
+    <a href="#home">Home</a>
+
 </body>
+
 </html>
