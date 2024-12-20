@@ -1,0 +1,6 @@
+   const [orderList,setOrderList]=useState([initalValue])
+    const [order,setOrder]=useState(initalValue)
+useEffect(()=>{
+       fetchData()
+    },[orderList])
+          setOrderList(currVal =>[{...currVal,order}])

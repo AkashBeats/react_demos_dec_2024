@@ -1,0 +1,13 @@
+{
+    "customers":[
+        {"id":1,"customerName":"ram"},
+        {"id":2,"customerName":"shyam"},
+        {"id":3,"customerName":"magesh"}
+
+    ],
+    "offices":[
+        {"id":10,"location":"chennai","imgRef":"office.png"},
+        {"id":20,"location":"Pune","imgRef":"office.png"},
+        {"id":30,"location":"Noida","imgRef":"office.png"}
+    ]
+}

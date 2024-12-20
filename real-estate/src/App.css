@@ -1,0 +1,10 @@
+.header-style{
+
+  background-position: center;
+  background-size: contain;
+  background-image: linear-gradient(#e2e0f2b3,#e2e0f2b3),url(../public/project1.jpeg);
+  display: flex;
+  /* width: 100vw;
+  min-height: 100vh; */
+  background-repeat: no-repeat;
+}
